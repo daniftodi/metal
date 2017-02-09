@@ -1,0 +1,3 @@
+/home/diftodi/CLionProjects/Metal/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/diftodi/CLionProjects/Metal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/diftodi/CLionProjects/Metal/cmake-build-debug/CMakeFiles/metal.dir
