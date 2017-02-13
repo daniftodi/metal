@@ -4,7 +4,6 @@
 
 #include <cstring>
 #include <stdexcept>
-#include <iostream>
 #include "ArrayHolder.h"
 
 template<class T>

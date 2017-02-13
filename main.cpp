@@ -2,8 +2,9 @@
 #include <cstring>
 #include "functions/SayHelloFunction.h"
 #include "abstract/Holder.h"
-#include "holders/ArrayHolder.h"
 #include "functions/CountFunction.h"
+#include "holders/ArrayHolder.h"
+#include "holders/ArrayHolder.cpp"
 
 #define MAX_FUNC_ARGS 10
 #define MAX_ARG_LEN 16
@@ -38,8 +39,8 @@ int main() {
     auto countFunction = new CountFunction("countFunction");
     auto sayFunction = new SayHelloFunction("sayHello");
 
-    //fHolder->put(sayFunction);
-//    fHolder->put(countFunction);
+    fHolder->put(sayFunction);
+    fHolder->put(countFunction);
 
 /*
     char *argv[] = {"1","2"};
@@ -54,9 +55,9 @@ int main() {
     fHolder->get(functionName)->execute(sizeof(argsContainer) / sizeof(char*), argsContainer);
     //delete[] argsContainer;
 
-    argsContainer = getFunctionArgs(inputQuery);
+    /*argsContainer = getFunctionArgs(inputQuery);
     functionName = getFunctionName(inputQuery);
-    fHolder->get(functionName)->execute(sizeof(argsContainer) / sizeof(char*), argsContainer);
+    fHolder->get(functionName)->execute(sizeof(argsContainer) / sizeof(char*), argsContainer);*/
     //delete[] argsContainer;
 
     std::cout<<std::endl;

@@ -25,6 +25,7 @@ CMakeFiles/metal.dir/main.cpp.o: ../abstract/Function.h
 CMakeFiles/metal.dir/main.cpp.o: ../abstract/Holder.h
 CMakeFiles/metal.dir/main.cpp.o: ../functions/CountFunction.h
 CMakeFiles/metal.dir/main.cpp.o: ../functions/SayHelloFunction.h
+CMakeFiles/metal.dir/main.cpp.o: ../holders/ArrayHolder.cpp
 CMakeFiles/metal.dir/main.cpp.o: ../holders/ArrayHolder.h
 CMakeFiles/metal.dir/main.cpp.o: ../main.cpp
 

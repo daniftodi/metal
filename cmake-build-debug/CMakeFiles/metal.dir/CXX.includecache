@@ -51,8 +51,6 @@ cstring
 -
 stdexcept
 -
-iostream
--
 ArrayHolder.h
 /home/diftodi/CLionProjects/Metal/holders/ArrayHolder.h
 
@@ -69,8 +67,10 @@ functions/SayHelloFunction.h
 /home/diftodi/CLionProjects/Metal/functions/SayHelloFunction.h
 abstract/Holder.h
 /home/diftodi/CLionProjects/Metal/abstract/Holder.h
-holders/ArrayHolder.h
-/home/diftodi/CLionProjects/Metal/holders/ArrayHolder.h
 functions/CountFunction.h
 /home/diftodi/CLionProjects/Metal/functions/CountFunction.h
+holders/ArrayHolder.h
+/home/diftodi/CLionProjects/Metal/holders/ArrayHolder.h
+holders/ArrayHolder.cpp
+/home/diftodi/CLionProjects/Metal/holders/ArrayHolder.cpp
 
