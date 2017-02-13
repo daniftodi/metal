@@ -16,15 +16,13 @@ Function.h
 
 /home/diftodi/CLionProjects/Metal/abstract/Function.h
 
-/home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.cpp
-cstring
--
-stdexcept
--
-FunctionHolder.h
-/home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.h
+/home/diftodi/CLionProjects/Metal/abstract/Holder.cpp
+Holder.h
+/home/diftodi/CLionProjects/Metal/abstract/Holder.h
 
-/home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.h
+/home/diftodi/CLionProjects/Metal/abstract/Holder.h
+cstdlib
+-
 Function.h
 /home/diftodi/CLionProjects/Metal/abstract/Function.h
 
@@ -48,19 +46,19 @@ SayHelloFunction.h
 ../abstract/Function.h
 /home/diftodi/CLionProjects/Metal/abstract/Function.h
 
-/home/diftodi/CLionProjects/Metal/holders/ArrayFunctionHolder.cpp
+/home/diftodi/CLionProjects/Metal/holders/ArrayHolder.cpp
 cstring
 -
 stdexcept
 -
 iostream
 -
-ArrayFunctionHolder.h
-/home/diftodi/CLionProjects/Metal/holders/ArrayFunctionHolder.h
+ArrayHolder.h
+/home/diftodi/CLionProjects/Metal/holders/ArrayHolder.h
 
-/home/diftodi/CLionProjects/Metal/holders/ArrayFunctionHolder.h
-../abstract/FunctionHolder.h
-/home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.h
+/home/diftodi/CLionProjects/Metal/holders/ArrayHolder.h
+../abstract/Holder.h
+/home/diftodi/CLionProjects/Metal/abstract/Holder.h
 
 /home/diftodi/CLionProjects/Metal/main.cpp
 iostream
@@ -69,10 +67,10 @@ cstring
 -
 functions/SayHelloFunction.h
 /home/diftodi/CLionProjects/Metal/functions/SayHelloFunction.h
-abstract/FunctionHolder.h
-/home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.h
-holders/ArrayFunctionHolder.h
-/home/diftodi/CLionProjects/Metal/holders/ArrayFunctionHolder.h
+abstract/Holder.h
+/home/diftodi/CLionProjects/Metal/abstract/Holder.h
+holders/ArrayHolder.h
+/home/diftodi/CLionProjects/Metal/holders/ArrayHolder.h
 functions/CountFunction.h
 /home/diftodi/CLionProjects/Metal/functions/CountFunction.h
 

@@ -129,52 +129,52 @@ CMakeFiles/metal.dir/abstract/Function.cpp.o.provides: CMakeFiles/metal.dir/abst
 CMakeFiles/metal.dir/abstract/Function.cpp.o.provides.build: CMakeFiles/metal.dir/abstract/Function.cpp.o
 
 
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o: CMakeFiles/metal.dir/flags.make
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o: ../abstract/FunctionHolder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diftodi/CLionProjects/Metal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o -c /home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.cpp
+CMakeFiles/metal.dir/abstract/Holder.cpp.o: CMakeFiles/metal.dir/flags.make
+CMakeFiles/metal.dir/abstract/Holder.cpp.o: ../abstract/Holder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diftodi/CLionProjects/Metal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/metal.dir/abstract/Holder.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metal.dir/abstract/Holder.cpp.o -c /home/diftodi/CLionProjects/Metal/abstract/Holder.cpp
 
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.cpp > CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.i
+CMakeFiles/metal.dir/abstract/Holder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/metal.dir/abstract/Holder.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diftodi/CLionProjects/Metal/abstract/Holder.cpp > CMakeFiles/metal.dir/abstract/Holder.cpp.i
 
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.cpp -o CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.s
+CMakeFiles/metal.dir/abstract/Holder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/metal.dir/abstract/Holder.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diftodi/CLionProjects/Metal/abstract/Holder.cpp -o CMakeFiles/metal.dir/abstract/Holder.cpp.s
 
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o.requires:
+CMakeFiles/metal.dir/abstract/Holder.cpp.o.requires:
 
-.PHONY : CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o.requires
+.PHONY : CMakeFiles/metal.dir/abstract/Holder.cpp.o.requires
 
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o.provides: CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o.requires
-	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o.provides.build
-.PHONY : CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o.provides
+CMakeFiles/metal.dir/abstract/Holder.cpp.o.provides: CMakeFiles/metal.dir/abstract/Holder.cpp.o.requires
+	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/abstract/Holder.cpp.o.provides.build
+.PHONY : CMakeFiles/metal.dir/abstract/Holder.cpp.o.provides
 
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o.provides.build: CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o
+CMakeFiles/metal.dir/abstract/Holder.cpp.o.provides.build: CMakeFiles/metal.dir/abstract/Holder.cpp.o
 
 
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o: CMakeFiles/metal.dir/flags.make
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o: ../holders/ArrayFunctionHolder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diftodi/CLionProjects/Metal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o -c /home/diftodi/CLionProjects/Metal/holders/ArrayFunctionHolder.cpp
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o: CMakeFiles/metal.dir/flags.make
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o: ../holders/ArrayHolder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/diftodi/CLionProjects/Metal/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o -c /home/diftodi/CLionProjects/Metal/holders/ArrayHolder.cpp
 
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diftodi/CLionProjects/Metal/holders/ArrayFunctionHolder.cpp > CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.i
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/metal.dir/holders/ArrayHolder.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/diftodi/CLionProjects/Metal/holders/ArrayHolder.cpp > CMakeFiles/metal.dir/holders/ArrayHolder.cpp.i
 
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diftodi/CLionProjects/Metal/holders/ArrayFunctionHolder.cpp -o CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.s
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/metal.dir/holders/ArrayHolder.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/diftodi/CLionProjects/Metal/holders/ArrayHolder.cpp -o CMakeFiles/metal.dir/holders/ArrayHolder.cpp.s
 
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o.requires:
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o.requires:
 
-.PHONY : CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o.requires
+.PHONY : CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o.requires
 
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o.provides: CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o.requires
-	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o.provides.build
-.PHONY : CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o.provides
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o.provides: CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o.requires
+	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o.provides.build
+.PHONY : CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o.provides
 
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o.provides.build: CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o.provides.build: CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o
 
 
 CMakeFiles/metal.dir/functions/CountFunction.cpp.o: CMakeFiles/metal.dir/flags.make
@@ -206,8 +206,8 @@ metal_OBJECTS = \
 "CMakeFiles/metal.dir/main.cpp.o" \
 "CMakeFiles/metal.dir/functions/SayHelloFunction.cpp.o" \
 "CMakeFiles/metal.dir/abstract/Function.cpp.o" \
-"CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o" \
-"CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o" \
+"CMakeFiles/metal.dir/abstract/Holder.cpp.o" \
+"CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o" \
 "CMakeFiles/metal.dir/functions/CountFunction.cpp.o"
 
 # External object files for target metal
@@ -216,8 +216,8 @@ metal_EXTERNAL_OBJECTS =
 metal: CMakeFiles/metal.dir/main.cpp.o
 metal: CMakeFiles/metal.dir/functions/SayHelloFunction.cpp.o
 metal: CMakeFiles/metal.dir/abstract/Function.cpp.o
-metal: CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o
-metal: CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o
+metal: CMakeFiles/metal.dir/abstract/Holder.cpp.o
+metal: CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o
 metal: CMakeFiles/metal.dir/functions/CountFunction.cpp.o
 metal: CMakeFiles/metal.dir/build.make
 metal: CMakeFiles/metal.dir/link.txt
@@ -232,8 +232,8 @@ CMakeFiles/metal.dir/build: metal
 CMakeFiles/metal.dir/requires: CMakeFiles/metal.dir/main.cpp.o.requires
 CMakeFiles/metal.dir/requires: CMakeFiles/metal.dir/functions/SayHelloFunction.cpp.o.requires
 CMakeFiles/metal.dir/requires: CMakeFiles/metal.dir/abstract/Function.cpp.o.requires
-CMakeFiles/metal.dir/requires: CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o.requires
-CMakeFiles/metal.dir/requires: CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o.requires
+CMakeFiles/metal.dir/requires: CMakeFiles/metal.dir/abstract/Holder.cpp.o.requires
+CMakeFiles/metal.dir/requires: CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o.requires
 CMakeFiles/metal.dir/requires: CMakeFiles/metal.dir/functions/CountFunction.cpp.o.requires
 
 .PHONY : CMakeFiles/metal.dir/requires

@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cstring>
 #include "functions/SayHelloFunction.h"
-#include "abstract/FunctionHolder.h"
-#include "holders/ArrayFunctionHolder.h"
+#include "abstract/Holder.h"
+#include "holders/ArrayHolder.h"
 #include "functions/CountFunction.h"
 
 #define MAX_FUNC_ARGS 10
@@ -34,12 +34,12 @@ char **getFunctionArgs(char* inputQuery) {
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    auto fHolder = new ArrayFunctionHolder(5);
+    ArrayHolder<Function>* fHolder = new ArrayHolder<Function>(5);
     auto countFunction = new CountFunction("countFunction");
     auto sayFunction = new SayHelloFunction("sayHello");
 
-    fHolder->putFunction(sayFunction);
-    fHolder->putFunction(countFunction);
+    //fHolder->put(sayFunction);
+//    fHolder->put(countFunction);
 
 /*
     char *argv[] = {"1","2"};
@@ -51,15 +51,15 @@ int main() {
     char inputQuery[80] = "countFunction:10";
     char **argsContainer = getFunctionArgs(inputQuery);
     char *functionName = getFunctionName(inputQuery);
-    fHolder->getFunction(functionName)->execute(sizeof(argsContainer) / sizeof(char*), argsContainer);
-    delete[] argsContainer;
+    fHolder->get(functionName)->execute(sizeof(argsContainer) / sizeof(char*), argsContainer);
+    //delete[] argsContainer;
 
     argsContainer = getFunctionArgs(inputQuery);
     functionName = getFunctionName(inputQuery);
-    fHolder->getFunction(functionName)->execute(sizeof(argsContainer) / sizeof(char*), argsContainer);
-    delete[] argsContainer;
+    fHolder->get(functionName)->execute(sizeof(argsContainer) / sizeof(char*), argsContainer);
+    //delete[] argsContainer;
 
     std::cout<<std::endl;
-    delete fHolder;
+    //delete fHolder;
     return 0;
 }

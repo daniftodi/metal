@@ -150,32 +150,32 @@ abstract/Function.cpp.s:
 	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/abstract/Function.cpp.s
 .PHONY : abstract/Function.cpp.s
 
-abstract/FunctionHolder.o: abstract/FunctionHolder.cpp.o
+abstract/Holder.o: abstract/Holder.cpp.o
 
-.PHONY : abstract/FunctionHolder.o
+.PHONY : abstract/Holder.o
 
 # target to build an object file
-abstract/FunctionHolder.cpp.o:
-	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o
-.PHONY : abstract/FunctionHolder.cpp.o
+abstract/Holder.cpp.o:
+	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/abstract/Holder.cpp.o
+.PHONY : abstract/Holder.cpp.o
 
-abstract/FunctionHolder.i: abstract/FunctionHolder.cpp.i
+abstract/Holder.i: abstract/Holder.cpp.i
 
-.PHONY : abstract/FunctionHolder.i
+.PHONY : abstract/Holder.i
 
 # target to preprocess a source file
-abstract/FunctionHolder.cpp.i:
-	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.i
-.PHONY : abstract/FunctionHolder.cpp.i
+abstract/Holder.cpp.i:
+	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/abstract/Holder.cpp.i
+.PHONY : abstract/Holder.cpp.i
 
-abstract/FunctionHolder.s: abstract/FunctionHolder.cpp.s
+abstract/Holder.s: abstract/Holder.cpp.s
 
-.PHONY : abstract/FunctionHolder.s
+.PHONY : abstract/Holder.s
 
 # target to generate assembly for a file
-abstract/FunctionHolder.cpp.s:
-	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.s
-.PHONY : abstract/FunctionHolder.cpp.s
+abstract/Holder.cpp.s:
+	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/abstract/Holder.cpp.s
+.PHONY : abstract/Holder.cpp.s
 
 functions/CountFunction.o: functions/CountFunction.cpp.o
 
@@ -231,32 +231,32 @@ functions/SayHelloFunction.cpp.s:
 	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/functions/SayHelloFunction.cpp.s
 .PHONY : functions/SayHelloFunction.cpp.s
 
-holders/ArrayFunctionHolder.o: holders/ArrayFunctionHolder.cpp.o
+holders/ArrayHolder.o: holders/ArrayHolder.cpp.o
 
-.PHONY : holders/ArrayFunctionHolder.o
+.PHONY : holders/ArrayHolder.o
 
 # target to build an object file
-holders/ArrayFunctionHolder.cpp.o:
-	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o
-.PHONY : holders/ArrayFunctionHolder.cpp.o
+holders/ArrayHolder.cpp.o:
+	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o
+.PHONY : holders/ArrayHolder.cpp.o
 
-holders/ArrayFunctionHolder.i: holders/ArrayFunctionHolder.cpp.i
+holders/ArrayHolder.i: holders/ArrayHolder.cpp.i
 
-.PHONY : holders/ArrayFunctionHolder.i
+.PHONY : holders/ArrayHolder.i
 
 # target to preprocess a source file
-holders/ArrayFunctionHolder.cpp.i:
-	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.i
-.PHONY : holders/ArrayFunctionHolder.cpp.i
+holders/ArrayHolder.cpp.i:
+	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/holders/ArrayHolder.cpp.i
+.PHONY : holders/ArrayHolder.cpp.i
 
-holders/ArrayFunctionHolder.s: holders/ArrayFunctionHolder.cpp.s
+holders/ArrayHolder.s: holders/ArrayHolder.cpp.s
 
-.PHONY : holders/ArrayFunctionHolder.s
+.PHONY : holders/ArrayHolder.s
 
 # target to generate assembly for a file
-holders/ArrayFunctionHolder.cpp.s:
-	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.s
-.PHONY : holders/ArrayFunctionHolder.cpp.s
+holders/ArrayHolder.cpp.s:
+	$(MAKE) -f CMakeFiles/metal.dir/build.make CMakeFiles/metal.dir/holders/ArrayHolder.cpp.s
+.PHONY : holders/ArrayHolder.cpp.s
 
 main.o: main.cpp.o
 
@@ -297,18 +297,18 @@ help:
 	@echo "... abstract/Function.o"
 	@echo "... abstract/Function.i"
 	@echo "... abstract/Function.s"
-	@echo "... abstract/FunctionHolder.o"
-	@echo "... abstract/FunctionHolder.i"
-	@echo "... abstract/FunctionHolder.s"
+	@echo "... abstract/Holder.o"
+	@echo "... abstract/Holder.i"
+	@echo "... abstract/Holder.s"
 	@echo "... functions/CountFunction.o"
 	@echo "... functions/CountFunction.i"
 	@echo "... functions/CountFunction.s"
 	@echo "... functions/SayHelloFunction.o"
 	@echo "... functions/SayHelloFunction.i"
 	@echo "... functions/SayHelloFunction.s"
-	@echo "... holders/ArrayFunctionHolder.o"
-	@echo "... holders/ArrayFunctionHolder.i"
-	@echo "... holders/ArrayFunctionHolder.s"
+	@echo "... holders/ArrayHolder.o"
+	@echo "... holders/ArrayHolder.i"
+	@echo "... holders/ArrayHolder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -4,9 +4,9 @@
 CMakeFiles/metal.dir/abstract/Function.cpp.o: ../abstract/Function.cpp
 CMakeFiles/metal.dir/abstract/Function.cpp.o: ../abstract/Function.h
 
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o: ../abstract/Function.h
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o: ../abstract/FunctionHolder.cpp
-CMakeFiles/metal.dir/abstract/FunctionHolder.cpp.o: ../abstract/FunctionHolder.h
+CMakeFiles/metal.dir/abstract/Holder.cpp.o: ../abstract/Function.h
+CMakeFiles/metal.dir/abstract/Holder.cpp.o: ../abstract/Holder.cpp
+CMakeFiles/metal.dir/abstract/Holder.cpp.o: ../abstract/Holder.h
 
 CMakeFiles/metal.dir/functions/CountFunction.cpp.o: ../abstract/Function.h
 CMakeFiles/metal.dir/functions/CountFunction.cpp.o: ../functions/CountFunction.cpp
@@ -16,15 +16,15 @@ CMakeFiles/metal.dir/functions/SayHelloFunction.cpp.o: ../abstract/Function.h
 CMakeFiles/metal.dir/functions/SayHelloFunction.cpp.o: ../functions/SayHelloFunction.cpp
 CMakeFiles/metal.dir/functions/SayHelloFunction.cpp.o: ../functions/SayHelloFunction.h
 
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o: ../abstract/Function.h
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o: ../abstract/FunctionHolder.h
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o: ../holders/ArrayFunctionHolder.cpp
-CMakeFiles/metal.dir/holders/ArrayFunctionHolder.cpp.o: ../holders/ArrayFunctionHolder.h
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o: ../abstract/Function.h
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o: ../abstract/Holder.h
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o: ../holders/ArrayHolder.cpp
+CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o: ../holders/ArrayHolder.h
 
 CMakeFiles/metal.dir/main.cpp.o: ../abstract/Function.h
-CMakeFiles/metal.dir/main.cpp.o: ../abstract/FunctionHolder.h
+CMakeFiles/metal.dir/main.cpp.o: ../abstract/Holder.h
 CMakeFiles/metal.dir/main.cpp.o: ../functions/CountFunction.h
 CMakeFiles/metal.dir/main.cpp.o: ../functions/SayHelloFunction.h
-CMakeFiles/metal.dir/main.cpp.o: ../holders/ArrayFunctionHolder.h
+CMakeFiles/metal.dir/main.cpp.o: ../holders/ArrayHolder.h
 CMakeFiles/metal.dir/main.cpp.o: ../main.cpp
 

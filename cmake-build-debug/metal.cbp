@@ -86,10 +86,10 @@
 		<Unit filename="/home/diftodi/CLionProjects/Metal/abstract/Function.h">
 			<Option target="metal"/>
 		</Unit>
-		<Unit filename="/home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.cpp">
+		<Unit filename="/home/diftodi/CLionProjects/Metal/abstract/Holder.cpp">
 			<Option target="metal"/>
 		</Unit>
-		<Unit filename="/home/diftodi/CLionProjects/Metal/abstract/FunctionHolder.h">
+		<Unit filename="/home/diftodi/CLionProjects/Metal/abstract/Holder.h">
 			<Option target="metal"/>
 		</Unit>
 		<Unit filename="/home/diftodi/CLionProjects/Metal/functions/CountFunction.cpp">
@@ -104,10 +104,10 @@
 		<Unit filename="/home/diftodi/CLionProjects/Metal/functions/SayHelloFunction.h">
 			<Option target="metal"/>
 		</Unit>
-		<Unit filename="/home/diftodi/CLionProjects/Metal/holders/ArrayFunctionHolder.cpp">
+		<Unit filename="/home/diftodi/CLionProjects/Metal/holders/ArrayHolder.cpp">
 			<Option target="metal"/>
 		</Unit>
-		<Unit filename="/home/diftodi/CLionProjects/Metal/holders/ArrayFunctionHolder.h">
+		<Unit filename="/home/diftodi/CLionProjects/Metal/holders/ArrayHolder.h">
 			<Option target="metal"/>
 		</Unit>
 		<Unit filename="/home/diftodi/CLionProjects/Metal/main.cpp">
