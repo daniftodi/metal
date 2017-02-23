@@ -16,6 +16,7 @@ public:
     explicit Holder(int fMaxLimit);
     virtual void put(T *fn) = 0;
     virtual T* get(char* name) = 0;
+    virtual int size() = 0;
 protected:
     T **data = NULL;
     int dataCount = 0;

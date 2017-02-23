@@ -7,10 +7,10 @@
 
 #include "../abstract/Function.h"
 
-class SayHelloFunction : public Function {
+class PrintFunction : public Function {
 public:
-    SayHelloFunction() : Function() {};
-    SayHelloFunction(const char* name) : Function(name){};
+    PrintFunction() : Function() {};
+    PrintFunction(const char* name) : Function(name){};
     int execute(int, char **);
 };
 #endif //UNTITLED_SAYHELLO_H

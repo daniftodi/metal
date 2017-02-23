@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/metal.dir/main.cpp.o CMakeFiles/metal.dir/functions/SayHelloFunction.cpp.o CMakeFiles/metal.dir/abstract/Function.cpp.o CMakeFiles/metal.dir/abstract/Holder.cpp.o CMakeFiles/metal.dir/holders/ArrayHolder.cpp.o CMakeFiles/metal.dir/functions/CountFunction.cpp.o  -o metal 

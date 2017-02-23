@@ -2,9 +2,23 @@
 // Created by diftodi on 2/6/17.
 //
 
-#include <cstring>
+#ifndef METAL_ARRAYHOLDER_H
+#define METAL_ARRAYHOLDER_H
+
+#include "../abstract/Holder.h"
 #include <stdexcept>
-#include "ArrayHolder.h"
+template<class T>
+class ArrayHolder : public Holder<T> {
+public:
+    ArrayHolder() {};
+    ArrayHolder(int dataMaxLimit) {
+        this->dataMaxLimit = dataMaxLimit;
+        this->data = new T*[dataMaxLimit];
+    };
+    virtual void put(T*);
+    virtual T* get(char*);
+    virtual int size();
+};
 
 template<class T>
 T* ArrayHolder<T>::get(char* name) {
@@ -24,3 +38,11 @@ void ArrayHolder<T>::put(T* item) {
         throw std::out_of_range("Out of range dataMaxLimit");
     }
 }
+
+
+template<class T>
+int ArrayHolder<T>::size() {
+    return this->dataCount;
+}
+
+#endif //METAL_ARRAYHOLDER_H
