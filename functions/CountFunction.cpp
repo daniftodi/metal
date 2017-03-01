@@ -5,8 +5,8 @@
 #include <iostream>
 #include "CountFunction.h"
 
-int CountFunction::execute(int argc, char **argv) {
-    int countTo = atoi(argv[1]);
+int CountFunction::execute(int argc, string* argv) {
+    int countTo = stoi(argv[1]);
     for(int i = 0; i < countTo; i++) {
         std::cout<<i<<" "<<std::endl;
     }

@@ -10,7 +10,7 @@
 class PrintFunction : public Function {
 public:
     PrintFunction() : Function() {};
-    PrintFunction(const char* name) : Function(name){};
-    int execute(int, char **);
+    PrintFunction(const string name) : Function(name){};
+    int execute(int, string*);
 };
 #endif //UNTITLED_SAYHELLO_H

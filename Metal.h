@@ -10,19 +10,22 @@
 
 #include "abstract/Function.h"
 #include "holders/ArrayHolder.hpp"
+#include <string>
+
+using namespace std;
 
 class Metal {
 public:
     Metal(int);
     ArrayHolder<Function>* getHolder();
-    char* getFunctionName(const char* inputQuery);
-    char** getFunctionArgs(const char* inputQuery);
+    string getFunctionName(const string inputQuery);
+    string* getFunctionArgs(const string inputQuery);
     int execute(char* inputQuery);
     void put(Function*);
 private:
     ArrayHolder<Function>* fHolder;
-    virtual char** tokenizer(const char* inputQuery, const int count);
-    int getArgsCount(char** args);
+    virtual string* tokenizer(const string inputQuery, const int count);
+    int getArgsCount(string* args);
 };
 
 

@@ -6,19 +6,19 @@
 #include <iostream>
 #include "Function.h"
 
-Function::Function(const char *name) {
+Function::Function(const string name) {
     this->name = name;
 }
 
-const char* Function::getName() {
+const string Function::getName() {
     return this->name;
 }
 
-void Function::setName(const char *name) {
-    strcmp(this->name, name);
+void Function::setName(const string name) {
+    this->name = name;
 }
 
-int Function::execute(int, char **) {
+int Function::execute(int, string*) {
     std::cout<<"Not implemented"<<std::endl;
 }
 

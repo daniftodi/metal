@@ -11,8 +11,8 @@
 class CountFunction : public Function {
 public:
     CountFunction() : Function() {};
-    CountFunction(const char* name) : Function(name){};
-    int execute(int, char **);
+    CountFunction(const string name) : Function(name){};
+    int execute(int, string*);
 };
 
 

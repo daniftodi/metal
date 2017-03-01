@@ -4,15 +4,18 @@
 
 #ifndef METAL_FUNCTION_H
 #define METAL_FUNCTION_H
+#include <string>
+using namespace std;
+
 class Function {
 public:
     Function() {}
-    Function(const char *name);
-    void setName(const char *name);
-    const char* getName();
-    virtual int execute(int,char**);
+    Function(const string name);
+    void setName(const string name);
+    const string getName();
+    virtual int execute(int,string*);
     virtual ~Function();
 protected:
-    const char *name;
+    string name;
 };
 #endif //METAL_FUNCTION_H

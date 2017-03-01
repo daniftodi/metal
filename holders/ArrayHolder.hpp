@@ -16,14 +16,14 @@ public:
         this->data = new T*[dataMaxLimit];
     };
     virtual void put(T*);
-    virtual T* get(char*);
+    virtual T* get(string);
     virtual int size();
 };
 
 template<class T>
-T* ArrayHolder<T>::get(char* name) {
+T* ArrayHolder<T>::get(string name) {
     for(int i=0; i<this->dataCount; i++) {
-        if(strcmp(name, this->data[i]->getName()) == 0) {
+        if(name == this->data[i]->getName()) {
             return this->data[i];
         }
     }
